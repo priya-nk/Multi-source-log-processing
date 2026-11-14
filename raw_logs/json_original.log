@@ -1,0 +1,600 @@
+{"timestamp":"2026-11-11T05:40:44.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000001 key=customer:1 hit=true"}
+{"timestamp":"2026-11-11T05:40:44.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000002 method=GET path=/api/v1/orders/2 status=200 duration_ms=6"}
+{"timestamp":"2026-11-11T05:40:44.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000003 method=GET path=/api/v1/orders/3 status=200 duration_ms=7"}
+{"timestamp":"2026-11-11T05:40:44.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000004 method=GET path=/api/v1/orders/4 status=200 duration_ms=8"}
+{"timestamp":"2026-11-11T05:40:44.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000005 method=GET path=/api/v1/orders/5 status=200 duration_ms=9"}
+{"timestamp":"2026-11-11T05:40:45.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000006 method=GET path=/api/v1/orders/6 status=200 duration_ms=10"}
+{"timestamp":"2026-11-11T05:40:45.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000007 method=GET path=/api/v1/orders/7 status=200 duration_ms=11"}
+{"timestamp":"2026-11-11T05:40:45.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000008 method=GET path=/api/v1/orders/8 status=200 duration_ms=12"}
+{"timestamp":"2026-11-11T05:40:45.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000009 method=GET path=/api/v1/orders/9 status=200 duration_ms=13"}
+{"timestamp":"2026-11-11T05:40:45.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000010 method=GET path=/api/v1/orders/10 status=200 duration_ms=14"}
+{"timestamp":"2026-11-11T05:40:45.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000011 method=GET path=/api/v1/orders/11 status=200 duration_ms=15"}
+{"timestamp":"2026-11-11T05:40:45.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000012 client=198.51.100.13 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:45.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000013 client=198.51.100.14 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:45.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000014 client=198.51.100.15 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:45.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000015 client=198.51.100.16 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:46.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000016 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:46.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000017 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:46.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000018 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:46.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000019 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:46.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000019 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:46.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000021 key=customer:21 hit=true"}
+{"timestamp":"2026-11-11T05:40:46.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000022 method=GET path=/api/v1/orders/22 status=200 duration_ms=26"}
+{"timestamp":"2026-11-11T05:40:46.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000023 method=GET path=/api/v1/orders/23 status=200 duration_ms=27"}
+{"timestamp":"2026-11-11T05:40:46.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000024 method=GET path=/api/v1/orders/24 status=200 duration_ms=28"}
+{"timestamp":"2026-11-11T05:40:46.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000025 method=GET path=/api/v1/orders/25 status=200 duration_ms=29"}
+{"timestamp":"2026-11-11T05:40:47.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000026 method=GET path=/api/v1/orders/26 status=200 duration_ms=30"}
+{"timestamp":"2026-11-11T05:40:47.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000027 method=GET path=/api/v1/orders/27 status=200 duration_ms=31"}
+{"timestamp":"2026-11-11T05:40:47.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000028 method=GET path=/api/v1/orders/28 status=200 duration_ms=32"}
+{"timestamp":"2026-11-11T05:40:47.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000029 method=GET path=/api/v1/orders/29 status=200 duration_ms=33"}
+{"timestamp":"2026-11-11T05:40:47.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000030 method=GET path=/api/v1/orders/30 status=200 duration_ms=34"}
+{"timestamp":"2026-11-11T05:40:47.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000031 method=GET path=/api/v1/orders/31 status=200 duration_ms=35"}
+{"timestamp":"2026-11-11T05:40:47.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000032 client=198.51.100.33 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:47.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000033 client=198.51.100.34 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:47.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000034 client=198.51.100.35 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:47.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000035 client=198.51.100.36 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:48.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000036 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:48.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000037 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:48.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000038 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:48.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000039 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:48.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000039 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:48.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000041 key=customer:41 hit=true"}
+{"timestamp":"2026-11-11T05:40:48.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000042 method=GET path=/api/v1/orders/42 status=200 duration_ms=46"}
+{"timestamp":"2026-11-11T05:40:48.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000043 method=GET path=/api/v1/orders/43 status=200 duration_ms=47"}
+{"timestamp":"2026-11-11T05:40:48.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000044 method=GET path=/api/v1/orders/44 status=200 duration_ms=48"}
+{"timestamp":"2026-11-11T05:40:48.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000045 method=GET path=/api/v1/orders/45 status=200 duration_ms=49"}
+{"timestamp":"2026-11-11T05:40:49.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000046 method=GET path=/api/v1/orders/46 status=200 duration_ms=50"}
+{"timestamp":"2026-11-11T05:40:49.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000047 method=GET path=/api/v1/orders/47 status=200 duration_ms=51"}
+{"timestamp":"2026-11-11T05:40:49.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000048 method=GET path=/api/v1/orders/48 status=200 duration_ms=52"}
+{"timestamp":"2026-11-11T05:40:49.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000049 method=GET path=/api/v1/orders/49 status=200 duration_ms=53"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:40:49.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000051 method=GET path=/api/v1/orders/51 status=200 duration_ms=55"}
+{"timestamp":"2026-11-11T05:40:49.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000052 client=198.51.100.53 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:49.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000053 client=198.51.100.54 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:49.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000054 client=198.51.100.55 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:49.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000055 client=198.51.100.56 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:50.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000056 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:50.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000057 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:50.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000058 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:50.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000059 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:50.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000059 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:50.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000061 key=customer:61 hit=true"}
+{"timestamp":"2026-11-11T05:40:50.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000062 method=GET path=/api/v1/orders/62 status=200 duration_ms=66"}
+{"timestamp":"2026-11-11T05:40:50.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000063 method=GET path=/api/v1/orders/63 status=200 duration_ms=67"}
+{"timestamp":"2026-11-11T05:40:50.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000064 method=GET path=/api/v1/orders/64 status=200 duration_ms=68"}
+{"timestamp":"2026-11-11T05:40:50.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000065 method=GET path=/api/v1/orders/65 status=200 duration_ms=69"}
+{"timestamp":"2026-11-11T05:40:51.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000066 method=GET path=/api/v1/orders/66 status=200 duration_ms=70"}
+{"timestamp":"2026-11-11T05:40:51.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000067 method=GET path=/api/v1/orders/67 status=200 duration_ms=71"}
+{"timestamp":"2026-11-11T05:40:51.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000068 method=GET path=/api/v1/orders/68 status=200 duration_ms=72"}
+{"timestamp":"2026-11-11T05:40:51.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000069 method=GET path=/api/v1/orders/69 status=200 duration_ms=73"}
+{"timestamp":"2026-11-11T05:40:51.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000070 method=GET path=/api/v1/orders/70 status=200 duration_ms=74"}
+{"timestamp":"2026-11-11T05:40:51.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000071 method=GET path=/api/v1/orders/71 status=200 duration_ms=75"}
+{"timestamp":"2026-11-11T05:40:51.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000072 client=198.51.100.73 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:51.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000073 client=198.51.100.74 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:51.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000074 client=198.51.100.75 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:51.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000075 client=198.51.100.76 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:52.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000076 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:52.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000077 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:52.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000078 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:52.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000079 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:52.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000079 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:52.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000081 key=customer:81 hit=true"}
+{"timestamp":"2026-11-11T05:40:52.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000082 method=GET path=/api/v1/orders/82 status=200 duration_ms=86"}
+{"timestamp":"2026-11-11T05:40:52.722Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000083 method=GET path=/api/v1/orders/83 status=200 duration_ms=87"}
+{"timestamp":"2026-11-11T05:40:52.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000084 method=GET path=/api/v1/orders/84 status=200 duration_ms=88"}
+{"timestamp":"2026-11-11T05:40:52.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000085 method=GET path=/api/v1/orders/85 status=200 duration_ms=89"}
+{"timestamp":"2026-11-11T05:40:53.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000086 method=GET path=/api/v1/orders/86 status=200 duration_ms=90"}
+{"timestamp":"2026-11-11T05:40:53.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000087 method=GET path=/api/v1/orders/87 status=200 duration_ms=91"}
+{"timestamp":"2026-11-11T05:40:53.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000088 method=GET path=/api/v1/orders/88 status=200 duration_ms=92"}
+{"timestamp":"2026-11-11T05:40:53.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000089 method=GET path=/api/v1/orders/89 status=200 duration_ms=93"}
+{"timestamp":"2026-11-11T05:40:53.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000090 method=GET path=/api/v1/orders/90 status=200 duration_ms=94"}
+{"timestamp":"2026-11-11T05:40:53.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000091 method=GET path=/api/v1/orders/91 status=200 duration_ms=95"}
+{"timestamp":"2026-11-11T05:40:53.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000092 client=198.51.100.93 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:53.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000093 client=198.51.100.94 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:53.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000094 client=198.51.100.95 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:53.921Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000095 client=198.51.100.96 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:54.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000096 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:54.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000097 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:54.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000098 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:54.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000099 component=database consecutive_failures=5"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:40:54.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000101 key=customer:101 hit=true"}
+{"timestamp":"2026-11-11T05:40:54.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000102 method=GET path=/api/v1/orders/102 status=200 duration_ms=106"}
+{"timestamp":"2026-11-11T05:40:54.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000103 method=GET path=/api/v1/orders/103 status=200 duration_ms=107"}
+{"timestamp":"2026-11-11T05:40:54.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000104 method=GET path=/api/v1/orders/104 status=200 duration_ms=108"}
+{"timestamp":"2026-11-11T05:40:54.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000105 method=GET path=/api/v1/orders/105 status=200 duration_ms=109"}
+{"timestamp":"2026-11-11T05:40:55.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000106 method=GET path=/api/v1/orders/106 status=200 duration_ms=110"}
+{"timestamp":"2026-11-11T05:40:55.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000107 method=GET path=/api/v1/orders/107 status=200 duration_ms=111"}
+{"timestamp":"2026-11-11T05:40:55.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000108 method=GET path=/api/v1/orders/108 status=200 duration_ms=112"}
+{"timestamp":"2026-11-11T05:40:55.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000109 method=GET path=/api/v1/orders/109 status=200 duration_ms=113"}
+{"timestamp":"2026-11-11T05:40:55.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000110 method=GET path=/api/v1/orders/110 status=200 duration_ms=114"}
+{"timestamp":"2026-11-11T05:40:55.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000111 method=GET path=/api/v1/orders/111 status=200 duration_ms=115"}
+{"timestamp":"2026-11-11T05:40:55.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000112 client=198.51.100.113 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:55.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000113 client=198.51.100.114 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:55.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000114 client=198.51.100.115 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:55.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000115 client=198.51.100.116 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:56.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000116 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:56.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000117 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:56.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000118 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:56.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000119 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:56.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000119 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:56.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000121 key=customer:121 hit=true"}
+{"timestamp":"2026-11-11T05:40:56.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000122 method=GET path=/api/v1/orders/122 status=200 duration_ms=126"}
+{"timestamp":"2026-11-11T05:40:56.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000123 method=GET path=/api/v1/orders/123 status=200 duration_ms=127"}
+{"timestamp":"2026-11-11T05:40:56.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000124 method=GET path=/api/v1/orders/124 status=200 duration_ms=128"}
+{"timestamp":"2026-11-11T05:40:56.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000125 method=GET path=/api/v1/orders/125 status=200 duration_ms=129"}
+{"timestamp":"2026-11-11T05:40:57.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000126 method=GET path=/api/v1/orders/126 status=200 duration_ms=130"}
+{"timestamp":"2026-11-11T05:40:57.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000127 method=GET path=/api/v1/orders/127 status=200 duration_ms=131"}
+{"timestamp":"2026-11-11T05:40:57.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000128 method=GET path=/api/v1/orders/128 status=200 duration_ms=132"}
+{"timestamp":"2026-11-11T05:40:57.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000129 method=GET path=/api/v1/orders/129 status=200 duration_ms=133"}
+{"timestamp":"2026-11-11T05:40:57.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000130 method=GET path=/api/v1/orders/130 status=200 duration_ms=134"}
+{"timestamp":"2026-11-11T05:40:57.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000131 method=GET path=/api/v1/orders/131 status=200 duration_ms=135"}
+{"timestamp":"2026-11-11T05:40:57.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000132 client=198.51.100.133 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:57.734Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000133 client=198.51.100.134 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:57.820Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000134 client=198.51.100.135 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:57.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000135 client=198.51.100.136 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:58.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000136 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:58.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000137 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:58.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000138 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:40:58.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000139 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:58.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000139 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:40:58.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000141 key=customer:141 hit=true"}
+{"timestamp":"2026-11-11T05:40:58.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000142 method=GET path=/api/v1/orders/142 status=200 duration_ms=146"}
+{"timestamp":"2026-11-11T05:40:58.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000143 method=GET path=/api/v1/orders/143 status=200 duration_ms=147"}
+{"timestamp":"2026-11-11T05:40:58.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000144 method=GET path=/api/v1/orders/144 status=200 duration_ms=148"}
+{"timestamp":"2026-11-11T05:40:58.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000145 method=GET path=/api/v1/orders/145 status=200 duration_ms=149"}
+{"timestamp":"2026-11-11T05:40:59.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000146 method=GET path=/api/v1/orders/146 status=200 duration_ms=150"}
+{"timestamp":"2026-11-11T05:40:59.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000147 method=GET path=/api/v1/orders/147 status=200 duration_ms=151"}
+{"timestamp":"2026-11-11T05:40:59.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000148 method=GET path=/api/v1/orders/148 status=200 duration_ms=152"}
+{"timestamp":"2026-11-11T05:40:59.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000149 method=GET path=/api/v1/orders/149 status=200 duration_ms=153"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:40:59.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000151 method=GET path=/api/v1/orders/151 status=200 duration_ms=155"}
+{"timestamp":"2026-11-11T05:40:59.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000152 client=198.51.100.153 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:59.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000153 client=198.51.100.154 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:59.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000154 client=198.51.100.155 retry_after=30s"}
+{"timestamp":"2026-11-11T05:40:59.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000155 client=198.51.100.156 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:00.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000156 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:00.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000157 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:00.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000158 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:00.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000159 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:00.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000159 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:00.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000161 key=customer:161 hit=true"}
+{"timestamp":"2026-11-11T05:41:00.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000162 method=GET path=/api/v1/orders/162 status=200 duration_ms=166"}
+{"timestamp":"2026-11-11T05:41:00.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000163 method=GET path=/api/v1/orders/163 status=200 duration_ms=167"}
+{"timestamp":"2026-11-11T05:41:00.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000164 method=GET path=/api/v1/orders/164 status=200 duration_ms=168"}
+{"timestamp":"2026-11-11T05:41:00.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000165 method=GET path=/api/v1/orders/165 status=200 duration_ms=169"}
+{"timestamp":"2026-11-11T05:41:01.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000166 method=GET path=/api/v1/orders/166 status=200 duration_ms=170"}
+{"timestamp":"2026-11-11T05:41:01.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000167 method=GET path=/api/v1/orders/167 status=200 duration_ms=171"}
+{"timestamp":"2026-11-11T05:41:01.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000168 method=GET path=/api/v1/orders/168 status=200 duration_ms=172"}
+{"timestamp":"2026-11-11T05:41:01.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000169 method=GET path=/api/v1/orders/169 status=200 duration_ms=173"}
+{"timestamp":"2026-11-11T05:41:01.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000170 method=GET path=/api/v1/orders/170 status=200 duration_ms=174"}
+{"timestamp":"2026-11-11T05:41:01.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000171 method=GET path=/api/v1/orders/171 status=200 duration_ms=175"}
+{"timestamp":"2026-11-11T05:41:01.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000172 client=198.51.100.173 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:01.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000173 client=198.51.100.174 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:01.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000174 client=198.51.100.175 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:01.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000175 client=198.51.100.176 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:02.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000176 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:02.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000177 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:02.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000178 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:02.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000179 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:02.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000179 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:02.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000181 key=customer:181 hit=true"}
+{"timestamp":"2026-11-11T05:41:02.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000182 method=GET path=/api/v1/orders/182 status=200 duration_ms=6"}
+{"timestamp":"2026-11-11T05:41:02.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000183 method=GET path=/api/v1/orders/183 status=200 duration_ms=7"}
+{"timestamp":"2026-11-11T05:41:02.820Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000184 method=GET path=/api/v1/orders/184 status=200 duration_ms=8"}
+{"timestamp":"2026-11-11T05:41:02.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000185 method=GET path=/api/v1/orders/185 status=200 duration_ms=9"}
+{"timestamp":"2026-11-11T05:41:03.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000186 method=GET path=/api/v1/orders/186 status=200 duration_ms=10"}
+{"timestamp":"2026-11-11T05:41:03.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000187 method=GET path=/api/v1/orders/187 status=200 duration_ms=11"}
+{"timestamp":"2026-11-11T05:41:03.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000188 method=GET path=/api/v1/orders/188 status=200 duration_ms=12"}
+{"timestamp":"2026-11-11T05:41:03.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000189 method=GET path=/api/v1/orders/189 status=200 duration_ms=13"}
+{"timestamp":"2026-11-11T05:41:03.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000190 method=GET path=/api/v1/orders/190 status=200 duration_ms=14"}
+{"timestamp":"2026-11-11T05:41:03.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000191 method=GET path=/api/v1/orders/191 status=200 duration_ms=15"}
+{"timestamp":"2026-11-11T05:41:03.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000192 client=198.51.100.193 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:03.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000193 client=198.51.100.194 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:03.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000194 client=198.51.100.195 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:03.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000195 client=198.51.100.196 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:04.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000196 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:04.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000197 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:04.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000198 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:04.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000199 component=database consecutive_failures=5"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:41:04.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000201 key=customer:201 hit=true"}
+{"timestamp":"2026-11-11T05:41:04.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000202 method=GET path=/api/v1/orders/202 status=200 duration_ms=26"}
+{"timestamp":"2026-11-11T05:41:04.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000203 method=GET path=/api/v1/orders/203 status=200 duration_ms=27"}
+{"timestamp":"2026-11-11T05:41:04.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000204 method=GET path=/api/v1/orders/204 status=200 duration_ms=28"}
+{"timestamp":"2026-11-11T05:41:04.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000205 method=GET path=/api/v1/orders/205 status=200 duration_ms=29"}
+{"timestamp":"2026-11-11T05:41:05.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000206 method=GET path=/api/v1/orders/206 status=200 duration_ms=30"}
+{"timestamp":"2026-11-11T05:41:05.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000207 method=GET path=/api/v1/orders/207 status=200 duration_ms=31"}
+{"timestamp":"2026-11-11T05:41:05.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000208 method=GET path=/api/v1/orders/208 status=200 duration_ms=32"}
+{"timestamp":"2026-11-11T05:41:05.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000209 method=GET path=/api/v1/orders/209 status=200 duration_ms=33"}
+{"timestamp":"2026-11-11T05:41:05.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000210 method=GET path=/api/v1/orders/210 status=200 duration_ms=34"}
+{"timestamp":"2026-11-11T05:41:05.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000211 method=GET path=/api/v1/orders/211 status=200 duration_ms=35"}
+{"timestamp":"2026-11-11T05:41:05.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000212 client=198.51.100.213 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:05.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000213 client=198.51.100.214 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:05.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000214 client=198.51.100.215 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:05.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000215 client=198.51.100.216 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:06.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000216 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:06.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000217 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:06.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000218 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:06.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000219 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:06.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000219 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:06.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000221 key=customer:221 hit=true"}
+{"timestamp":"2026-11-11T05:41:06.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000222 method=GET path=/api/v1/orders/222 status=200 duration_ms=46"}
+{"timestamp":"2026-11-11T05:41:06.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000223 method=GET path=/api/v1/orders/223 status=200 duration_ms=47"}
+{"timestamp":"2026-11-11T05:41:06.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000224 method=GET path=/api/v1/orders/224 status=200 duration_ms=48"}
+{"timestamp":"2026-11-11T05:41:06.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000225 method=GET path=/api/v1/orders/225 status=200 duration_ms=49"}
+{"timestamp":"2026-11-11T05:41:07.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000226 method=GET path=/api/v1/orders/226 status=200 duration_ms=50"}
+{"timestamp":"2026-11-11T05:41:07.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000227 method=GET path=/api/v1/orders/227 status=200 duration_ms=51"}
+{"timestamp":"2026-11-11T05:41:07.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000228 method=GET path=/api/v1/orders/228 status=200 duration_ms=52"}
+{"timestamp":"2026-11-11T05:41:07.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000229 method=GET path=/api/v1/orders/229 status=200 duration_ms=53"}
+{"timestamp":"2026-11-11T05:41:07.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000230 method=GET path=/api/v1/orders/230 status=200 duration_ms=54"}
+{"timestamp":"2026-11-11T05:41:07.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000231 method=GET path=/api/v1/orders/231 status=200 duration_ms=55"}
+{"timestamp":"2026-11-11T05:41:07.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000232 client=198.51.100.233 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:07.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000233 client=198.51.100.234 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:07.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000234 client=198.51.100.235 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:07.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000235 client=198.51.100.236 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:08.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000236 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:08.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000237 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:08.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000238 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:08.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000239 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:08.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000239 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:08.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000241 key=customer:241 hit=true"}
+{"timestamp":"2026-11-11T05:41:08.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000242 method=GET path=/api/v1/orders/242 status=200 duration_ms=66"}
+{"timestamp":"2026-11-11T05:41:08.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000243 method=GET path=/api/v1/orders/243 status=200 duration_ms=67"}
+{"timestamp":"2026-11-11T05:41:08.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000244 method=GET path=/api/v1/orders/244 status=200 duration_ms=68"}
+{"timestamp":"2026-11-11T05:41:08.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000245 method=GET path=/api/v1/orders/245 status=200 duration_ms=69"}
+{"timestamp":"2026-11-11T05:41:09.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000246 method=GET path=/api/v1/orders/246 status=200 duration_ms=70"}
+{"timestamp":"2026-11-11T05:41:09.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000247 method=GET path=/api/v1/orders/247 status=200 duration_ms=71"}
+{"timestamp":"2026-11-11T05:41:09.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000248 method=GET path=/api/v1/orders/248 status=200 duration_ms=72"}
+{"timestamp":"2026-11-11T05:41:09.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000249 method=GET path=/api/v1/orders/249 status=200 duration_ms=73"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:41:09.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000251 method=GET path=/api/v1/orders/251 status=200 duration_ms=75"}
+{"timestamp":"2026-11-11T05:41:09.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000252 client=198.51.100.3 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:09.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000253 client=198.51.100.4 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:09.820Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000254 client=198.51.100.5 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:09.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000255 client=198.51.100.6 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:10.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000256 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:10.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000257 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:10.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000258 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:10.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000259 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:10.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000259 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:10.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000261 key=customer:261 hit=true"}
+{"timestamp":"2026-11-11T05:41:10.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000262 method=GET path=/api/v1/orders/262 status=200 duration_ms=86"}
+{"timestamp":"2026-11-11T05:41:10.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000263 method=GET path=/api/v1/orders/263 status=200 duration_ms=87"}
+{"timestamp":"2026-11-11T05:41:10.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000264 method=GET path=/api/v1/orders/264 status=200 duration_ms=88"}
+{"timestamp":"2026-11-11T05:41:10.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000265 method=GET path=/api/v1/orders/265 status=200 duration_ms=89"}
+{"timestamp":"2026-11-11T05:41:11.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000266 method=GET path=/api/v1/orders/266 status=200 duration_ms=90"}
+{"timestamp":"2026-11-11T05:41:11.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000267 method=GET path=/api/v1/orders/267 status=200 duration_ms=91"}
+{"timestamp":"2026-11-11T05:41:11.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000268 method=GET path=/api/v1/orders/268 status=200 duration_ms=92"}
+{"timestamp":"2026-11-11T05:41:11.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000269 method=GET path=/api/v1/orders/269 status=200 duration_ms=93"}
+{"timestamp":"2026-11-11T05:41:11.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000270 method=GET path=/api/v1/orders/270 status=200 duration_ms=94"}
+{"timestamp":"2026-11-11T05:41:11.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000271 method=GET path=/api/v1/orders/271 status=200 duration_ms=95"}
+{"timestamp":"2026-11-11T05:41:11.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000272 client=198.51.100.23 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:11.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000273 client=198.51.100.24 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:11.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000274 client=198.51.100.25 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:11.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000275 client=198.51.100.26 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:12.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000276 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:12.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000277 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:12.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000278 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:12.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000279 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:12.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000279 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:12.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000281 key=customer:281 hit=true"}
+{"timestamp":"2026-11-11T05:41:12.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000282 method=GET path=/api/v1/orders/282 status=200 duration_ms=106"}
+{"timestamp":"2026-11-11T05:41:12.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000283 method=GET path=/api/v1/orders/283 status=200 duration_ms=107"}
+{"timestamp":"2026-11-11T05:41:12.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000284 method=GET path=/api/v1/orders/284 status=200 duration_ms=108"}
+{"timestamp":"2026-11-11T05:41:12.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000285 method=GET path=/api/v1/orders/285 status=200 duration_ms=109"}
+{"timestamp":"2026-11-11T05:41:13.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000286 method=GET path=/api/v1/orders/286 status=200 duration_ms=110"}
+{"timestamp":"2026-11-11T05:41:13.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000287 method=GET path=/api/v1/orders/287 status=200 duration_ms=111"}
+{"timestamp":"2026-11-11T05:41:13.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000288 method=GET path=/api/v1/orders/288 status=200 duration_ms=112"}
+{"timestamp":"2026-11-11T05:41:13.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000289 method=GET path=/api/v1/orders/289 status=200 duration_ms=113"}
+{"timestamp":"2026-11-11T05:41:13.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000290 method=GET path=/api/v1/orders/290 status=200 duration_ms=114"}
+{"timestamp":"2026-11-11T05:41:13.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000291 method=GET path=/api/v1/orders/291 status=200 duration_ms=115"}
+{"timestamp":"2026-11-11T05:41:13.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000292 client=198.51.100.43 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:13.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000293 client=198.51.100.44 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:13.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000294 client=198.51.100.45 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:13.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000295 client=198.51.100.46 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:14.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000296 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:14.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000297 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:14.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000298 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:14.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000299 component=database consecutive_failures=5"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:41:14.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000301 key=customer:301 hit=true"}
+{"timestamp":"2026-11-11T05:41:14.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000302 method=GET path=/api/v1/orders/302 status=200 duration_ms=126"}
+{"timestamp":"2026-11-11T05:41:14.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000303 method=GET path=/api/v1/orders/303 status=200 duration_ms=127"}
+{"timestamp":"2026-11-11T05:41:14.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000304 method=GET path=/api/v1/orders/304 status=200 duration_ms=128"}
+{"timestamp":"2026-11-11T05:41:14.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000305 method=GET path=/api/v1/orders/305 status=200 duration_ms=129"}
+{"timestamp":"2026-11-11T05:41:15.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000306 method=GET path=/api/v1/orders/306 status=200 duration_ms=130"}
+{"timestamp":"2026-11-11T05:41:15.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000307 method=GET path=/api/v1/orders/307 status=200 duration_ms=131"}
+{"timestamp":"2026-11-11T05:41:15.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000308 method=GET path=/api/v1/orders/308 status=200 duration_ms=132"}
+{"timestamp":"2026-11-11T05:41:15.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000309 method=GET path=/api/v1/orders/309 status=200 duration_ms=133"}
+{"timestamp":"2026-11-11T05:41:15.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000310 method=GET path=/api/v1/orders/310 status=200 duration_ms=134"}
+{"timestamp":"2026-11-11T05:41:15.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000311 method=GET path=/api/v1/orders/311 status=200 duration_ms=135"}
+{"timestamp":"2026-11-11T05:41:15.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000312 client=198.51.100.63 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:15.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000313 client=198.51.100.64 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:15.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000314 client=198.51.100.65 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:15.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000315 client=198.51.100.66 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:16.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000316 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:16.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000317 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:16.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000318 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:16.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000319 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:16.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000319 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:16.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000321 key=customer:321 hit=true"}
+{"timestamp":"2026-11-11T05:41:16.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000322 method=GET path=/api/v1/orders/322 status=200 duration_ms=146"}
+{"timestamp":"2026-11-11T05:41:16.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000323 method=GET path=/api/v1/orders/323 status=200 duration_ms=147"}
+{"timestamp":"2026-11-11T05:41:16.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000324 method=GET path=/api/v1/orders/324 status=200 duration_ms=148"}
+{"timestamp":"2026-11-11T05:41:16.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000325 method=GET path=/api/v1/orders/325 status=200 duration_ms=149"}
+{"timestamp":"2026-11-11T05:41:17.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000326 method=GET path=/api/v1/orders/326 status=200 duration_ms=150"}
+{"timestamp":"2026-11-11T05:41:17.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000327 method=GET path=/api/v1/orders/327 status=200 duration_ms=151"}
+{"timestamp":"2026-11-11T05:41:17.220Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000328 method=GET path=/api/v1/orders/328 status=200 duration_ms=152"}
+{"timestamp":"2026-11-11T05:41:17.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000329 method=GET path=/api/v1/orders/329 status=200 duration_ms=153"}
+{"timestamp":"2026-11-11T05:41:17.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000330 method=GET path=/api/v1/orders/330 status=200 duration_ms=154"}
+{"timestamp":"2026-11-11T05:41:17.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000331 method=GET path=/api/v1/orders/331 status=200 duration_ms=155"}
+{"timestamp":"2026-11-11T05:41:17.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000332 client=198.51.100.83 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:17.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000333 client=198.51.100.84 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:17.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000334 client=198.51.100.85 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:17.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000335 client=198.51.100.86 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:18.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000336 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:18.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000337 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:18.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000338 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:18.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000339 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:18.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000339 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:18.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000341 key=customer:341 hit=true"}
+{"timestamp":"2026-11-11T05:41:18.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000342 method=GET path=/api/v1/orders/342 status=200 duration_ms=166"}
+{"timestamp":"2026-11-11T05:41:18.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000343 method=GET path=/api/v1/orders/343 status=200 duration_ms=167"}
+{"timestamp":"2026-11-11T05:41:18.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000344 method=GET path=/api/v1/orders/344 status=200 duration_ms=168"}
+{"timestamp":"2026-11-11T05:41:18.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000345 method=GET path=/api/v1/orders/345 status=200 duration_ms=169"}
+{"timestamp":"2026-11-11T05:41:19.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000346 method=GET path=/api/v1/orders/346 status=200 duration_ms=170"}
+{"timestamp":"2026-11-11T05:41:19.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000347 method=GET path=/api/v1/orders/347 status=200 duration_ms=171"}
+{"timestamp":"2026-11-11T05:41:19.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000348 method=GET path=/api/v1/orders/348 status=200 duration_ms=172"}
+{"timestamp":"2026-11-11T05:41:19.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000349 method=GET path=/api/v1/orders/349 status=200 duration_ms=173"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:41:19.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000351 method=GET path=/api/v1/orders/351 status=200 duration_ms=175"}
+{"timestamp":"2026-11-11T05:41:19.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000352 client=198.51.100.103 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:19.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000353 client=198.51.100.104 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:19.820Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000354 client=198.51.100.105 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:19.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000355 client=198.51.100.106 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:20.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000356 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:20.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000357 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:20.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000358 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:20.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000359 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:20.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000359 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:20.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000361 key=customer:361 hit=true"}
+{"timestamp":"2026-11-11T05:41:20.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000362 method=GET path=/api/v1/orders/362 status=200 duration_ms=6"}
+{"timestamp":"2026-11-11T05:41:20.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000363 method=GET path=/api/v1/orders/363 status=200 duration_ms=7"}
+{"timestamp":"2026-11-11T05:41:20.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000364 method=GET path=/api/v1/orders/364 status=200 duration_ms=8"}
+{"timestamp":"2026-11-11T05:41:20.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000365 method=GET path=/api/v1/orders/365 status=200 duration_ms=9"}
+{"timestamp":"2026-11-11T05:41:21.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000366 method=GET path=/api/v1/orders/366 status=200 duration_ms=10"}
+{"timestamp":"2026-11-11T05:41:21.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000367 method=GET path=/api/v1/orders/367 status=200 duration_ms=11"}
+{"timestamp":"2026-11-11T05:41:21.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000368 method=GET path=/api/v1/orders/368 status=200 duration_ms=12"}
+{"timestamp":"2026-11-11T05:41:21.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000369 method=GET path=/api/v1/orders/369 status=200 duration_ms=13"}
+{"timestamp":"2026-11-11T05:41:21.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000370 method=GET path=/api/v1/orders/370 status=200 duration_ms=14"}
+{"timestamp":"2026-11-11T05:41:21.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000371 method=GET path=/api/v1/orders/371 status=200 duration_ms=15"}
+{"timestamp":"2026-11-11T05:41:21.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000372 client=198.51.100.123 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:21.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000373 client=198.51.100.124 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:21.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000374 client=198.51.100.125 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:21.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000375 client=198.51.100.126 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:22.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000376 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:22.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000377 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:22.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000378 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:22.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000379 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:22.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000379 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:22.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000381 key=customer:381 hit=true"}
+{"timestamp":"2026-11-11T05:41:22.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000382 method=GET path=/api/v1/orders/382 status=200 duration_ms=26"}
+{"timestamp":"2026-11-11T05:41:22.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000383 method=GET path=/api/v1/orders/383 status=200 duration_ms=27"}
+{"timestamp":"2026-11-11T05:41:22.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000384 method=GET path=/api/v1/orders/384 status=200 duration_ms=28"}
+{"timestamp":"2026-11-11T05:41:22.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000385 method=GET path=/api/v1/orders/385 status=200 duration_ms=29"}
+{"timestamp":"2026-11-11T05:41:23.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000386 method=GET path=/api/v1/orders/386 status=200 duration_ms=30"}
+{"timestamp":"2026-11-11T05:41:23.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000387 method=GET path=/api/v1/orders/387 status=200 duration_ms=31"}
+{"timestamp":"2026-11-11T05:41:23.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000388 method=GET path=/api/v1/orders/388 status=200 duration_ms=32"}
+{"timestamp":"2026-11-11T05:41:23.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000389 method=GET path=/api/v1/orders/389 status=200 duration_ms=33"}
+{"timestamp":"2026-11-11T05:41:23.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000390 method=GET path=/api/v1/orders/390 status=200 duration_ms=34"}
+{"timestamp":"2026-11-11T05:41:23.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000391 method=GET path=/api/v1/orders/391 status=200 duration_ms=35"}
+{"timestamp":"2026-11-11T05:41:23.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000392 client=198.51.100.143 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:23.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000393 client=198.51.100.144 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:23.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000394 client=198.51.100.145 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:23.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000395 client=198.51.100.146 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:24.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000396 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:24.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000397 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:24.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000398 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:24.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000399 component=database consecutive_failures=5"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:41:24.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000401 key=customer:401 hit=true"}
+{"timestamp":"2026-11-11T05:41:24.620Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000402 method=GET path=/api/v1/orders/402 status=200 duration_ms=46"}
+{"timestamp":"2026-11-11T05:41:24.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000403 method=GET path=/api/v1/orders/403 status=200 duration_ms=47"}
+{"timestamp":"2026-11-11T05:41:24.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000404 method=GET path=/api/v1/orders/404 status=200 duration_ms=48"}
+{"timestamp":"2026-11-11T05:41:24.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000405 method=GET path=/api/v1/orders/405 status=200 duration_ms=49"}
+{"timestamp":"2026-11-11T05:41:25.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000406 method=GET path=/api/v1/orders/406 status=200 duration_ms=50"}
+{"timestamp":"2026-11-11T05:41:25.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000407 method=GET path=/api/v1/orders/407 status=200 duration_ms=51"}
+{"timestamp":"2026-11-11T05:41:25.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000408 method=GET path=/api/v1/orders/408 status=200 duration_ms=52"}
+{"timestamp":"2026-11-11T05:41:25.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000409 method=GET path=/api/v1/orders/409 status=200 duration_ms=53"}
+{"timestamp":"2026-11-11T05:41:25.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000410 method=GET path=/api/v1/orders/410 status=200 duration_ms=54"}
+{"timestamp":"2026-11-11T05:41:25.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000411 method=GET path=/api/v1/orders/411 status=200 duration_ms=55"}
+{"timestamp":"2026-11-11T05:41:25.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000412 client=198.51.100.163 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:25.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000413 client=198.51.100.164 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:25.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000414 client=198.51.100.165 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:25.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000415 client=198.51.100.166 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:26.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000416 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:26.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000417 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:26.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000418 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:26.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000419 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:26.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000419 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:26.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000421 key=customer:421 hit=true"}
+{"timestamp":"2026-11-11T05:41:26.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000422 method=GET path=/api/v1/orders/422 status=200 duration_ms=66"}
+{"timestamp":"2026-11-11T05:41:26.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000423 method=GET path=/api/v1/orders/423 status=200 duration_ms=67"}
+{"timestamp":"2026-11-11T05:41:26.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000424 method=GET path=/api/v1/orders/424 status=200 duration_ms=68"}
+{"timestamp":"2026-11-11T05:41:26.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000425 method=GET path=/api/v1/orders/425 status=200 duration_ms=69"}
+{"timestamp":"2026-11-11T05:41:27.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000426 method=GET path=/api/v1/orders/426 status=200 duration_ms=70"}
+{"timestamp":"2026-11-11T05:41:27.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000427 method=GET path=/api/v1/orders/427 status=200 duration_ms=71"}
+{"timestamp":"2026-11-11T05:41:27.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000428 method=GET path=/api/v1/orders/428 status=200 duration_ms=72"}
+{"timestamp":"2026-11-11T05:41:27.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000429 method=GET path=/api/v1/orders/429 status=200 duration_ms=73"}
+{"timestamp":"2026-11-11T05:41:27.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000430 method=GET path=/api/v1/orders/430 status=200 duration_ms=74"}
+{"timestamp":"2026-11-11T05:41:27.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000431 method=GET path=/api/v1/orders/431 status=200 duration_ms=75"}
+{"timestamp":"2026-11-11T05:41:27.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000432 client=198.51.100.183 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:27.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000433 client=198.51.100.184 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:27.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000434 client=198.51.100.185 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:27.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000435 client=198.51.100.186 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:28.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000436 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:28.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000437 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:28.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000438 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:28.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000439 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:28.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000439 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:28.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000441 key=customer:441 hit=true"}
+{"timestamp":"2026-11-11T05:41:28.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000442 method=GET path=/api/v1/orders/442 status=200 duration_ms=86"}
+{"timestamp":"2026-11-11T05:41:28.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000443 method=GET path=/api/v1/orders/443 status=200 duration_ms=87"}
+{"timestamp":"2026-11-11T05:41:28.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000444 method=GET path=/api/v1/orders/444 status=200 duration_ms=88"}
+{"timestamp":"2026-11-11T05:41:28.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000445 method=GET path=/api/v1/orders/445 status=200 duration_ms=89"}
+{"timestamp":"2026-11-11T05:41:29.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000446 method=GET path=/api/v1/orders/446 status=200 duration_ms=90"}
+{"timestamp":"2026-11-11T05:41:29.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000447 method=GET path=/api/v1/orders/447 status=200 duration_ms=91"}
+{"timestamp":"2026-11-11T05:41:29.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000448 method=GET path=/api/v1/orders/448 status=200 duration_ms=92"}
+{"timestamp":"2026-11-11T05:41:29.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000449 method=GET path=/api/v1/orders/449 status=200 duration_ms=93"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:41:29.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000451 method=GET path=/api/v1/orders/451 status=200 duration_ms=95"}
+{"timestamp":"2026-11-11T05:41:29.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000452 client=198.51.100.203 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:29.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000453 client=198.51.100.204 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:29.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000454 client=198.51.100.205 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:29.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000455 client=198.51.100.206 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:30.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000456 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:30.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000457 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:30.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000458 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:30.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000459 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:30.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000459 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:30.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000461 key=customer:461 hit=true"}
+{"timestamp":"2026-11-11T05:41:30.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000462 method=GET path=/api/v1/orders/462 status=200 duration_ms=106"}
+{"timestamp":"2026-11-11T05:41:30.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000463 method=GET path=/api/v1/orders/463 status=200 duration_ms=107"}
+{"timestamp":"2026-11-11T05:41:30.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000464 method=GET path=/api/v1/orders/464 status=200 duration_ms=108"}
+{"timestamp":"2026-11-11T05:41:30.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000465 method=GET path=/api/v1/orders/465 status=200 duration_ms=109"}
+{"timestamp":"2026-11-11T05:41:31.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000466 method=GET path=/api/v1/orders/466 status=200 duration_ms=110"}
+{"timestamp":"2026-11-11T05:41:31.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000467 method=GET path=/api/v1/orders/467 status=200 duration_ms=111"}
+{"timestamp":"2026-11-11T05:41:31.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000468 method=GET path=/api/v1/orders/468 status=200 duration_ms=112"}
+{"timestamp":"2026-11-11T05:41:31.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000469 method=GET path=/api/v1/orders/469 status=200 duration_ms=113"}
+{"timestamp":"2026-11-11T05:41:31.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000470 method=GET path=/api/v1/orders/470 status=200 duration_ms=114"}
+{"timestamp":"2026-11-11T05:41:31.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000471 method=GET path=/api/v1/orders/471 status=200 duration_ms=115"}
+{"timestamp":"2026-11-11T05:41:31.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000472 client=198.51.100.223 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:31.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000473 client=198.51.100.224 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:31.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000474 client=198.51.100.225 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:31.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000475 client=198.51.100.226 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:32.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000476 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:32.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000477 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:32.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000478 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:32.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000479 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:32.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000479 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:32.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000481 key=customer:481 hit=true"}
+{"timestamp":"2026-11-11T05:41:32.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000482 method=GET path=/api/v1/orders/482 status=200 duration_ms=126"}
+{"timestamp":"2026-11-11T05:41:32.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000483 method=GET path=/api/v1/orders/483 status=200 duration_ms=127"}
+{"timestamp":"2026-11-11T05:41:32.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000484 method=GET path=/api/v1/orders/484 status=200 duration_ms=128"}
+{"timestamp":"2026-11-11T05:41:32.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000485 method=GET path=/api/v1/orders/485 status=200 duration_ms=129"}
+{"timestamp":"2026-11-11T05:41:33.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000486 method=GET path=/api/v1/orders/486 status=200 duration_ms=130"}
+{"timestamp":"2026-11-11T05:41:33.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000487 method=GET path=/api/v1/orders/487 status=200 duration_ms=131"}
+{"timestamp":"2026-11-11T05:41:33.220Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000488 method=GET path=/api/v1/orders/488 status=200 duration_ms=132"}
+{"timestamp":"2026-11-11T05:41:33.320Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000489 method=GET path=/api/v1/orders/489 status=200 duration_ms=133"}
+{"timestamp":"2026-11-11T05:41:33.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000490 method=GET path=/api/v1/orders/490 status=200 duration_ms=134"}
+{"timestamp":"2026-11-11T05:41:33.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000491 method=GET path=/api/v1/orders/491 status=200 duration_ms=135"}
+{"timestamp":"2026-11-11T05:41:33.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000492 client=198.51.100.243 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:33.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000493 client=198.51.100.244 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:33.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000494 client=198.51.100.245 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:33.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000495 client=198.51.100.246 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:34.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000496 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:34.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000497 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:34.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000498 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:34.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000499 component=database consecutive_failures=5"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:41:34.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000501 key=customer:501 hit=true"}
+{"timestamp":"2026-11-11T05:41:34.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000502 method=GET path=/api/v1/orders/502 status=200 duration_ms=146"}
+{"timestamp":"2026-11-11T05:41:34.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000503 method=GET path=/api/v1/orders/503 status=200 duration_ms=147"}
+{"timestamp":"2026-11-11T05:41:34.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000504 method=GET path=/api/v1/orders/504 status=200 duration_ms=148"}
+{"timestamp":"2026-11-11T05:41:34.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000505 method=GET path=/api/v1/orders/505 status=200 duration_ms=149"}
+{"timestamp":"2026-11-11T05:41:35.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000506 method=GET path=/api/v1/orders/506 status=200 duration_ms=150"}
+{"timestamp":"2026-11-11T05:41:35.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000507 method=GET path=/api/v1/orders/507 status=200 duration_ms=151"}
+{"timestamp":"2026-11-11T05:41:35.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000508 method=GET path=/api/v1/orders/508 status=200 duration_ms=152"}
+{"timestamp":"2026-11-11T05:41:35.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000509 method=GET path=/api/v1/orders/509 status=200 duration_ms=153"}
+{"timestamp":"2026-11-11T05:41:35.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000510 method=GET path=/api/v1/orders/510 status=200 duration_ms=154"}
+{"timestamp":"2026-11-11T05:41:35.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000511 method=GET path=/api/v1/orders/511 status=200 duration_ms=155"}
+{"timestamp":"2026-11-11T05:41:35.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000512 client=198.51.100.13 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:35.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000513 client=198.51.100.14 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:35.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000514 client=198.51.100.15 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:35.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000515 client=198.51.100.16 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:36.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000516 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:36.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000517 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:36.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000518 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:36.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000519 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:36.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000519 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:36.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000521 key=customer:521 hit=true"}
+{"timestamp":"2026-11-11T05:41:36.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000522 method=GET path=/api/v1/orders/522 status=200 duration_ms=166"}
+{"timestamp":"2026-11-11T05:41:36.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000523 method=GET path=/api/v1/orders/523 status=200 duration_ms=167"}
+{"timestamp":"2026-11-11T05:41:36.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000524 method=GET path=/api/v1/orders/524 status=200 duration_ms=168"}
+{"timestamp":"2026-11-11T05:41:36.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000525 method=GET path=/api/v1/orders/525 status=200 duration_ms=169"}
+{"timestamp":"2026-11-11T05:41:37.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000526 method=GET path=/api/v1/orders/526 status=200 duration_ms=170"}
+{"timestamp":"2026-11-11T05:41:37.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000527 method=GET path=/api/v1/orders/527 status=200 duration_ms=171"}
+{"timestamp":"2026-11-11T05:41:37.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000528 method=GET path=/api/v1/orders/528 status=200 duration_ms=172"}
+{"timestamp":"2026-11-11T05:41:37.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000529 method=GET path=/api/v1/orders/529 status=200 duration_ms=173"}
+{"timestamp":"2026-11-11T05:41:37.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000530 method=GET path=/api/v1/orders/530 status=200 duration_ms=174"}
+{"timestamp":"2026-11-11T05:41:37.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000531 method=GET path=/api/v1/orders/531 status=200 duration_ms=175"}
+{"timestamp":"2026-11-11T05:41:37.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000532 client=198.51.100.33 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:37.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000533 client=198.51.100.34 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:37.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000534 client=198.51.100.35 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:37.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000535 client=198.51.100.36 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:38.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000536 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:38.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000537 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:38.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000538 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:38.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000539 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:38.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000539 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:38.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000541 key=customer:541 hit=true"}
+{"timestamp":"2026-11-11T05:41:38.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000542 method=GET path=/api/v1/orders/542 status=200 duration_ms=6"}
+{"timestamp":"2026-11-11T05:41:38.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000543 method=GET path=/api/v1/orders/543 status=200 duration_ms=7"}
+{"timestamp":"2026-11-11T05:41:38.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000544 method=GET path=/api/v1/orders/544 status=200 duration_ms=8"}
+{"timestamp":"2026-11-11T05:41:38.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000545 method=GET path=/api/v1/orders/545 status=200 duration_ms=9"}
+{"timestamp":"2026-11-11T05:41:39.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000546 method=GET path=/api/v1/orders/546 status=200 duration_ms=10"}
+{"timestamp":"2026-11-11T05:41:39.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000547 method=GET path=/api/v1/orders/547 status=200 duration_ms=11"}
+{"timestamp":"2026-11-11T05:41:39.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000548 method=GET path=/api/v1/orders/548 status=200 duration_ms=12"}
+{"timestamp":"2026-11-11T05:41:39.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000549 method=GET path=/api/v1/orders/549 status=200 duration_ms=13"}
+{"timestamp":broken,"message":}
+{"timestamp":"2026-11-11T05:41:39.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000551 method=GET path=/api/v1/orders/551 status=200 duration_ms=15"}
+{"timestamp":"2026-11-11T05:41:39.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000552 client=198.51.100.53 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:39.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000553 client=198.51.100.54 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:39.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000554 client=198.51.100.55 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:39.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000555 client=198.51.100.56 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:40.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000556 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:40.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000557 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:40.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000558 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:40.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000559 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:40.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000559 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:40.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000561 key=customer:561 hit=true"}
+{"timestamp":"2026-11-11T05:41:40.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000562 method=GET path=/api/v1/orders/562 status=200 duration_ms=26"}
+{"timestamp":"2026-11-11T05:41:40.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000563 method=GET path=/api/v1/orders/563 status=200 duration_ms=27"}
+{"timestamp":"2026-11-11T05:41:40.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000564 method=GET path=/api/v1/orders/564 status=200 duration_ms=28"}
+{"timestamp":"2026-11-11T05:41:40.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000565 method=GET path=/api/v1/orders/565 status=200 duration_ms=29"}
+{"timestamp":"2026-11-11T05:41:41.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000566 method=GET path=/api/v1/orders/566 status=200 duration_ms=30"}
+{"timestamp":"2026-11-11T05:41:41.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000567 method=GET path=/api/v1/orders/567 status=200 duration_ms=31"}
+{"timestamp":"2026-11-11T05:41:41.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000568 method=GET path=/api/v1/orders/568 status=200 duration_ms=32"}
+{"timestamp":"2026-11-11T05:41:41.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000569 method=GET path=/api/v1/orders/569 status=200 duration_ms=33"}
+{"timestamp":"2026-11-11T05:41:41.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000570 method=GET path=/api/v1/orders/570 status=200 duration_ms=34"}
+{"timestamp":"2026-11-11T05:41:41.519Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000571 method=GET path=/api/v1/orders/571 status=200 duration_ms=35"}
+{"timestamp":"2026-11-11T05:41:41.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000572 client=198.51.100.73 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:41.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000573 client=198.51.100.74 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:41.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000574 client=198.51.100.75 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:41.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000575 client=198.51.100.76 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:42.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000576 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:42.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000577 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:42.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000578 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:42.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000579 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:42.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000579 component=database consecutive_failures=5"}
+{"timestamp":"2026-11-11T05:41:42.519Z","level":"DEBUG","host":"source-1","message":"cache lookup request_id=req-1-000581 key=customer:581 hit=true"}
+{"timestamp":"2026-11-11T05:41:42.619Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000582 method=GET path=/api/v1/orders/582 status=200 duration_ms=46"}
+{"timestamp":"2026-11-11T05:41:42.719Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000583 method=GET path=/api/v1/orders/583 status=200 duration_ms=47"}
+{"timestamp":"2026-11-11T05:41:42.819Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000584 method=GET path=/api/v1/orders/584 status=200 duration_ms=48"}
+{"timestamp":"2026-11-11T05:41:42.919Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000585 method=GET path=/api/v1/orders/585 status=200 duration_ms=49"}
+{"timestamp":"2026-11-11T05:41:43.019Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000586 method=GET path=/api/v1/orders/586 status=200 duration_ms=50"}
+{"timestamp":"2026-11-11T05:41:43.119Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000587 method=GET path=/api/v1/orders/587 status=200 duration_ms=51"}
+{"timestamp":"2026-11-11T05:41:43.219Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000588 method=GET path=/api/v1/orders/588 status=200 duration_ms=52"}
+{"timestamp":"2026-11-11T05:41:43.319Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000589 method=GET path=/api/v1/orders/589 status=200 duration_ms=53"}
+{"timestamp":"2026-11-11T05:41:43.419Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000590 method=GET path=/api/v1/orders/590 status=200 duration_ms=54"}
+{"timestamp":"2026-11-11T05:41:43.520Z","level":"INFO","host":"source-1","message":"request completed request_id=req-1-000591 method=GET path=/api/v1/orders/591 status=200 duration_ms=55"}
+{"timestamp":"2026-11-11T05:41:43.619Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000592 client=198.51.100.93 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:43.719Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000593 client=198.51.100.94 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:43.819Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000594 client=198.51.100.95 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:43.919Z","level":"WARN","host":"source-1","message":"rate limit reached request_id=req-1-000595 client=198.51.100.96 retry_after=30s"}
+{"timestamp":"2026-11-11T05:41:44.019Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000596 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:44.119Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000597 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:44.219Z","level":"ERROR","host":"source-1","message":"database query failed request_id=req-1-000598 database=orders error=connection_timeout"}
+{"timestamp":"2026-11-11T05:41:44.319Z","level":"CRITICAL","host":"source-1","message":"service health critical request_id=req-1-000599 component=database consecutive_failures=5"}
+{"timestamp":broken,"message":}
